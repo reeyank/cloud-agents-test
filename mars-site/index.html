@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A cinematic Vite-powered website about Mars, the red planet."
+    />
+    <title>Mars | The Red Frontier</title>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <div class="stars"></div>
+    <div class="planet-glow"></div>
+
+    <header class="hero">
+      <nav class="nav container">
+        <div class="brand">MARS</div>
+        <button class="nav-link" data-scroll="#overview">Start exploring</button>
+      </nav>
+
+      <section class="hero__content container">
+        <p class="eyebrow">Vite site · Planetary showcase</p>
+        <h1>The red planet that keeps pulling us forward.</h1>
+        <p class="hero__copy">
+          Mars is cold, dusty, dramatic, and astonishingly familiar. Its towering volcanoes,
+          deep canyons, and frozen poles make it the most Earth-like world we can visit with
+          robots today—and maybe with humans tomorrow.
+        </p>
+        <div class="hero__actions">
+          <button class="button button--primary" data-scroll="#overview">Discover Mars</button>
+          <button class="button button--ghost" data-scroll="#missions">View missions</button>
+        </div>
+        <ul class="stats">
+          <li><span>687</span><small>Earth days per Martian year</small></li>
+          <li><span>2</span><small>tiny moons: Phobos and Deimos</small></li>
+          <li><span>-63°C</span><small>average surface temperature</small></li>
+        </ul>
+      </section>
+    </header>
+
+    <main>
+      <section id="overview" class="section container grid grid--2">
+        <div>
+          <p class="eyebrow">Why Mars matters</p>
+          <h2>A planet shaped by fire, ice, and time.</h2>
+          <p>
+            Mars preserves clues about how rocky planets evolve. Ancient river channels suggest
+            that liquid water once moved across its surface, while modern dust storms and polar
+            ice caps reveal an active world still changing today.
+          </p>
+        </div>
+        <div class="card card--highlight">
+          <h3>Fast facts</h3>
+          <ul class="fact-list">
+            <li><strong>Olympus Mons</strong> is the tallest volcano in the solar system.</li>
+            <li><strong>Valles Marineris</strong> stretches farther than the continental U.S.</li>
+            <li><strong>Thin atmosphere</strong> means sunsets can glow blue near the Sun.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section--panel">
+        <div class="container">
+          <p class="eyebrow">Surface story</p>
+          <div class="grid grid--3 cards">
+            <article class="card">
+              <h3>Volcanoes</h3>
+              <p>
+                Massive shield volcanoes hint at a long history of internal heat and ancient lava flows.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Canyons</h3>
+              <p>
+                Gigantic fractures and valleys expose layers of Martian geology like pages in a book.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Water clues</h3>
+              <p>
+                Deltas, minerals, and sedimentary rocks suggest Mars was once much wetter than it is now.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="missions" class="section container">
+        <p class="eyebrow">Exploration timeline</p>
+        <h2>Robots are writing Mars history one landing at a time.</h2>
+        <div class="timeline">
+          <article class="timeline__item">
+            <span>1976</span>
+            <div>
+              <h3>Viking 1</h3>
+              <p>Delivered the first successful long-term surface mission on Mars.</p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <span>1997</span>
+            <div>
+              <h3>Sojourner</h3>
+              <p>Proved that a mobile rover could explore the Martian surface.</p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <span>2012</span>
+            <div>
+              <h3>Curiosity</h3>
+              <p>Found strong evidence that ancient Mars could once support microbial life.</p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <span>2021</span>
+            <div>
+              <h3>Perseverance</h3>
+              <p>Collects samples and studies Jezero Crater, a former lake environment.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container grid grid--2 section--cta">
+        <div>
+          <p class="eyebrow">The next chapter</p>
+          <h2>Mars is more than a destination—it is a test of curiosity.</h2>
+          <p>
+            Every orbiter, lander, and rover helps us answer bigger questions about life, climate,
+            and humanity’s future beyond Earth.
+          </p>
+        </div>
+        <div class="card card--cta">
+          <p class="quote">“Exploration is really the essence of the human spirit.”</p>
+          <p class="quote__byline">Inspired by generations of space explorers</p>
+          <button class="button button--primary" data-scroll="top">Back to top</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
